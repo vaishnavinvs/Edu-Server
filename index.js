@@ -6,7 +6,7 @@ require('./db/connection')
 const router = require('./routes/router')
 
 const server = express()
-const PORT = 3000
+const PORT = 3000|| process.env.PORT
 
 
 
